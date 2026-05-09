@@ -1,0 +1,14 @@
+[project]
+name = "upbitlib"
+version = "0.1.0"
+description = "Small Python client for Upbit REST and WebSocket APIs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
